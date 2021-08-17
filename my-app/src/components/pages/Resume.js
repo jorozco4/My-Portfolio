@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../../img/resume.png";
+import Resume from "../../img/Jesse_Orozco_Resume.png";
 // import Page from "../styles/resume.css";
 import SocialFollow from "../../components/SocialFollow";
 
