@@ -24,13 +24,13 @@ export default function About() {
           <img src={Self} alt="Self" width="193" height="130" />
         </a>
         <p style={styles.font}>
-          Present criminal law and society graduate with over 10 years of work
-          experience cultivating strategic relationships with cross-functional
-          internal and external clients in diverse environments. During my free
-          time I like to hike, bike, kayak, and fish. These activites keep me
-          going throughout the busy work week. My future goal is to become a
-          software developer and be able to enhanced my learning from buildings
-          projects.
+          I am a professional pivoting to a software development role. Detail
+          oriented team leader with over 12 years of work experience cultivating
+          strategic relationships with cross-functional internal and external
+          clients in diverse environments. Self-motivated team player with
+          proven success managing multiple simultaneous projects and tasks.
+          Highly disciplined quick learner and analytical problem-solver with
+          exceptional interpersonal, organizational and communication skills.
         </p>
       </section>
       <div />
