@@ -1,5 +1,6 @@
 import React from "react";
 import Resume from "../../img/Jesse_Orozco_Resume.png";
+
 // import Page from "../styles/resume.css";
 import SocialFollow from "../../components/SocialFollow";
 
@@ -38,14 +39,15 @@ function Resumes() {
               Download Resume
             </a>
           </button> */}
-
-        <a
-          href="./img/Jesse_Orozco_Resume.pdf"
-          download="Jesse_Orozco_Resume.pdf"
-          class="btn btn-primary btn-lg"
-        >
-          Download my Resume!
-        </a>
+        <button>
+          <a
+            href="Jesse_Orozco_Resume.pdf"
+            download="Jesse_Orozco_Resume.pdf"
+            class="btn btn-primary btn-lg"
+          >
+            Download my Resume!
+          </a>
+        </button>
       </section>
       <div />
       <SocialFollow />
