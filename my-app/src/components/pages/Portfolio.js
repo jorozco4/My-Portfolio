@@ -78,7 +78,7 @@ const Portfolio = () => {
               <div className="portfolio-item--title" style={styles.font}>
                 Password-Generator
               </div>
-              <a href="https://jorozco4.github.io/Homework-3/">
+              <a href="https://jorozco4.github.io/Password-Generator/">
                 <img src={Password} alt="Password" width="193" height="130" />
               </a>
               <p style={styles.font}>Generates a password </p>
