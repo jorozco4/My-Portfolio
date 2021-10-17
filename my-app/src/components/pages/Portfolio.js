@@ -15,7 +15,7 @@ const styles = {
     height: "100%",
   },
   font: {
-    color: "white",
+    color: "black",
   },
 };
 
@@ -40,10 +40,13 @@ const Portfolio = () => {
               <a href="https://tsilvab.github.io/Homies/">
                 <img src={Homies} alt="Homies" width="193" height="130" />
               </a>
+              <p style={styles.font}>
+                Allow users to seek federal job opportunites in US major cities.
+              </p>
             </div>
             <div className="col-sm-12 col-md-4 porfolio-item--card">
               <div className="portfolio-item--title" style={styles.font}>
-                Sneaker-Hype
+                SneakerHype
               </div>
               <a href="https://sneakerhype.herokuapp.com/">
                 <img
@@ -53,6 +56,7 @@ const Portfolio = () => {
                   height="130"
                 />
               </a>
+              <p style={styles.font}>Allow users to search for sneakers.</p>
             </div>
             <div className="col-sm-12 col-md-4 porfolio-item--card">
               <div className="portfolio-item--title" style={styles.font}>
@@ -66,6 +70,9 @@ const Portfolio = () => {
                   height="130"
                 />
               </a>
+              <p style={styles.font}>
+                Allow individuls to manage and engage with professional networks
+              </p>
             </div>
             <div className="col-sm-12 col-md-4 porfolio-item--card">
               <div className="portfolio-item--title" style={styles.font}>
@@ -74,12 +81,13 @@ const Portfolio = () => {
               <a href="https://jorozco4.github.io/Homework-3/">
                 <img src={Password} alt="Password" width="193" height="130" />
               </a>
+              <p style={styles.font}>Generates a password </p>
             </div>
             <div className="col-sm-12 col-md-4 porfolio-item--card">
               <div className="portfolio-item--title" style={styles.font}>
                 Work-Day-Schedule
               </div>
-              <a href="https://jorozco4.github.io/Homework5/">
+              <a href="https://jorozco4.github.io/Work-Day-Schedule/">
                 <img
                   src={WorkDayScheduler}
                   alt="WorkDayScheduler"
@@ -87,6 +95,9 @@ const Portfolio = () => {
                   height="130"
                 />
               </a>
+              <p style={styles.font}>
+                Intended to book and save appointment times
+              </p>
             </div>
             <div className="col-sm-12 col-md-4 porfolio-item--card">
               <div className="portfolio-item--title" style={styles.font}>
@@ -95,6 +106,9 @@ const Portfolio = () => {
               <a href="https://hidden-ocean-60791.herokuapp.com/">
                 <img src={NoteTaker} alt="NoteTaker" width="193" height="130" />
               </a>
+              <p style={styles.font}>
+                Allows users to take notes for personal use .
+              </p>
             </div>
           </div>
         </div>

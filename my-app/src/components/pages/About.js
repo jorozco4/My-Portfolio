@@ -20,9 +20,9 @@ export default function About() {
     <>
       <section className="section" style={styles.card}>
         <h2 style={styles.font}>About me</h2>
-        <a>
-          <img src={Self} alt="Self" width="193" height="130" />
-        </a>
+
+        <img src={Self} alt="Self" width="300" height="200" />
+
         <p style={styles.font}>
           I am a professional pivoting to a software development role. Detail
           oriented team leader with over 12 years of work experience cultivating
